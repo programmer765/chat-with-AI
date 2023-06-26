@@ -1,0 +1,56 @@
+body {
+  background-image: radial-gradient(ellipse farthest-corner at center top, #9ab1c7 0%, #1a242f 100%);
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
+.info {
+  width: 100%;
+  text-align: center;
+  font-size: 150%;
+}
+
+.result_container {
+  flex-grow: 1;
+  padding: 2% 20%;
+}
+
+.results {
+  height: 100%;
+  margin: 0;
+  background: black;
+  color: white;
+  padding: 2% 3%;
+  padding-bottom: 0;
+}
+
+.button {
+  height: 30%;
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  border: 0px;
+  border-radius: 50%;
+  padding: 3%;
+  font-size: 140%;
+  box-shadow: 10px 2px 35px #9ab1c7;
+  background: #1e658142;
+  cursor: pointer;
+  color: #1e1341;
+  font-weight: 600;
+  height: 90%;
+  position: relative;
+  top: 10%;
+}
+
+.active {
+  box-shadow: none;
+  cursor: not-allowed;
+}
